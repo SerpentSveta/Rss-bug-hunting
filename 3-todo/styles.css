@@ -100,6 +100,9 @@ body {
   flex: 1;
   cursor: pointer;
 }
+.completed .task__text {
+  text-decoration: line-through;
+}
 
 .task.done .task__text {
   text-decoration: line-through;
